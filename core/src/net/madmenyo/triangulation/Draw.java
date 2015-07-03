@@ -18,7 +18,7 @@ public class Draw {
         sr.setProjectionMatrix(projectionMatrix);
         sr.begin(ShapeRenderer.ShapeType.Filled);
         sr.setColor(Color.WHITE);
-        sr.circle(position.x, position.y, 10);
+        sr.circle(position.x, position.y, 4);
         sr.end();
     }
 
@@ -40,7 +40,7 @@ public class Draw {
         sr.setProjectionMatrix(projectionMatrix);
         sr.begin(ShapeRenderer.ShapeType.Filled);
         sr.setColor(color);
-        sr.circle(position.x, position.y, 10);
+        sr.circle(position.x, position.y, 4);
         sr.end();
     }
 
